@@ -1,10 +1,11 @@
 import "./App.css";
+import Menu from "./components/Menu";
 
 console.log("Hola Mundo");
 function App() {
   return (
     <>
-      <h1>Hola Mundo</h1>
+      <Menu></Menu>
     </>
   );
 }
