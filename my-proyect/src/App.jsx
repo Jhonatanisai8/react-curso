@@ -3,6 +3,7 @@ import "./App.css";
 import Menu from "./components/Menu";
 import RenderizadoCondicional from "./components/RenderizadoCondicional";
 import RenderizadoListas from "./components/RenderizadoListas";
+import RenderizadoObjetos from "./components/RenderizadoObjetos";
 
 function App() {
   // const [numero, setNumero] = useState(0);
@@ -44,7 +45,8 @@ function App() {
     // </>
 
     // <RenderizadoCondicional></RenderizadoCondicional>
-    <RenderizadoListas></RenderizadoListas>
+    // <RenderizadoListas></RenderizadoListas>
+    <RenderizadoObjetos></RenderizadoObjetos>
   );
 }
 
