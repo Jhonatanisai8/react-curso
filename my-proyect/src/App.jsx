@@ -2,6 +2,7 @@ import { useState } from "react";
 import "./App.css";
 import Menu from "./components/Menu";
 import RenderizadoCondicional from "./components/RenderizadoCondicional";
+import RenderizadoListas from "./components/RenderizadoListas";
 
 function App() {
   // const [numero, setNumero] = useState(0);
@@ -42,7 +43,8 @@ function App() {
     //   </div>
     // </>
 
-    <RenderizadoCondicional></RenderizadoCondicional>
+    // <RenderizadoCondicional></RenderizadoCondicional>
+    <RenderizadoListas></RenderizadoListas>
   );
 }
 
