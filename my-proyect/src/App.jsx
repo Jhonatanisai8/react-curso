@@ -4,8 +4,9 @@ import Menu from "./components/Menu";
 import RenderizadoCondicional from "./components/RenderizadoCondicional";
 import RenderizadoListas from "./components/RenderizadoListas";
 import RenderizadoObjetos from "./components/RenderizadoObjetos";
-import Padre from "./components/props_sesion/Padre";
+// import Padre from "./components/props_sesion/Padre";
 import ClaseNameSesion from "./components/ClaseNameSesion";
+import Padre from "./components/props_sesion01/Padre";
 
 function App() {
   // const [numero, setNumero] = useState(0);
@@ -50,7 +51,8 @@ function App() {
     // <RenderizadoListas></RenderizadoListas>
     // <RenderizadoObjetos></RenderizadoObjetos>
     // <Padre></Padre>
-    <ClaseNameSesion></ClaseNameSesion>
+    // <ClaseNameSesion></ClaseNameSesion>
+    <Padre></Padre>
   );
 }
 
