@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import Hijo from "./Hijo";
+import Hermano from "./Hermano";
 
 const Padre = () => {
   const [display, setDisplay] = useState("");
@@ -12,6 +13,9 @@ const Padre = () => {
       <h2>
         <span className="text-lg font-bold">Hola:</span> {display}
       </h2>
+      <div>
+        <Hermano userName={display}></Hermano>
+      </div>
       <Hijo handlerLogin={login}></Hijo>
     </div>
   );
