@@ -4,6 +4,7 @@ import Hermano from "./Hermano";
 
 const Padre = () => {
   const [display, setDisplay] = useState("");
+
   const login = (name) => {
     setDisplay(name);
   };
@@ -16,7 +17,7 @@ const Padre = () => {
       <div>
         <Hermano userName={display}></Hermano>
       </div>
-      <Hijo handlerLogin={login}></Hijo>
+      <Hijo handlerLogin={login} userName={display}></Hijo>
     </div>
   );
 };

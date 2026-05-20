@@ -1,17 +1,15 @@
 import React, { useState } from "react";
 
-const Hijo = ({ handlerLogin }) => {
-  const [userName, setUserName] = useState("Jhonatan");
-
+const Hijo = (props) => {
   const handlerClick = () => {
-    handlerLogin(userName);
+    props.handlerLogin("Jhonatan");
   };
 
   return (
     <div className="border-2 border-red-700 m-2 p-4">
       <h2>Este es un componente Hijo</h2>
       <p>
-        Nombre del Usuario <span className="font-bold">{userName}</span>
+        Nombre del Usuario: <span className="font-bold">{props.userName}</span>
       </p>
       <div className="flex justify-center mt-0.5 ">
         <button
