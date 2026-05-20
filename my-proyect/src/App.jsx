@@ -7,6 +7,7 @@ import RenderizadoObjetos from "./components/RenderizadoObjetos";
 // import Padre from "./components/props_sesion/Padre";
 import ClaseNameSesion from "./components/ClaseNameSesion";
 import Padre from "./components/props_sesion01/Padre";
+import Example from "./components/usseffct/Example";
 
 function App() {
   // const [numero, setNumero] = useState(0);
@@ -52,7 +53,8 @@ function App() {
     // <RenderizadoObjetos></RenderizadoObjetos>
     // <Padre></Padre>
     // <ClaseNameSesion></ClaseNameSesion>
-    <Padre></Padre>
+    // <Padre></Padre>
+    <Example></Example>
   );
 }
 
