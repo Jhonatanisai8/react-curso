@@ -5,8 +5,8 @@ import { useEffect } from "react";
 const Hijo = () => {
   const [contador, setContador] = useState(0);
   useEffect(() => {
-    console.log("Componente hijo se ah renderizado");
-  }, []);
+    console.log("La variable contador ha cambiado: ", contador);
+  }, [contador]);
   return (
     <div className=" mt-1 border border-b-amber-700 p-4 text-center  rounded">
       Este es un componente hijo
