@@ -8,6 +8,7 @@ import RenderizadoObjetos from "./components/RenderizadoObjetos";
 import ClaseNameSesion from "./components/ClaseNameSesion";
 import Padre from "./components/props_sesion01/Padre";
 import Example from "./components/axios-api/Example";
+import FormularioExample from "./components/formularios/FormularioExample";
 // import Example from "./components/fetch-api/Example";
 
 function App() {
@@ -57,7 +58,8 @@ function App() {
     // <Padre></Padre>
     // <Example></Example>
     // <Example></Example>
-    <Example />
+    // <Example />
+    <FormularioExample />
   );
 }
 
