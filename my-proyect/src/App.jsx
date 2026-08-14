@@ -9,6 +9,10 @@ import ClaseNameSesion from "./components/ClaseNameSesion";
 import Padre from "./components/props_sesion01/Padre";
 import Example from "./components/axios-api/Example";
 import FormularioExample from "./components/formularios/FormularioExample";
+import RouterExample from "./components/router/RouterExample";
+import { Route, Router, Routes } from "react-router-dom";
+import HomePage from "./pages/HomePage";
+import BlogPage from "./pages/BlogPage";
 // import Example from "./components/fetch-api/Example";
 
 function App() {
@@ -59,7 +63,12 @@ function App() {
     // <Example></Example>
     // <Example></Example>
     // <Example />
-    <FormularioExample />
+    // <FormularioExample />
+    // <RouterExample></RouterExample>
+    <Routes>
+      <Route path="/" element={<HomePage></HomePage>}></Route>
+      <Route path="/blog" element={<BlogPage></BlogPage>}></Route>
+    </Routes>
   );
 }
 
