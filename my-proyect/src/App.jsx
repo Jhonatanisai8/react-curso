@@ -13,6 +13,7 @@ import RouterExample from "./components/router/RouterExample";
 import { Route, Router, Routes } from "react-router-dom";
 import HomePage from "./pages/HomePage";
 import BlogPage from "./pages/BlogPage";
+import PostDetail from "./pages/PostDetail";
 // import Example from "./components/fetch-api/Example";
 
 function App() {
@@ -68,6 +69,7 @@ function App() {
     <Routes>
       <Route path="/" element={<HomePage></HomePage>}></Route>
       <Route path="/blog" element={<BlogPage></BlogPage>}></Route>
+      <Route path="/blog/:id" element={<PostDetail></PostDetail>}></Route>
     </Routes>
   );
 }
